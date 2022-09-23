@@ -10,5 +10,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(this, "hello to all after second commit", Toast.LENGTH_SHORT).show()
+
+
+        Toast.makeText(this, "i am in develop branch", Toast.LENGTH_SHORT).show()
     }
 }
